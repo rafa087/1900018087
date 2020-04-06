@@ -10,36 +10,41 @@ table, th, td {
 </style>
 </head>
 <body>
-
-<form>
-	<div align="left" style="border: 2px solid black"><br>
-  	<label for="Nama"> Nama &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </label>
+<form action="action_page.php">
+    <div style="border: 2px solid black">
+        <br> 
+        <h2>Formulir Pendaftaran Anggota</h2>
+    <p> Nama :</p>
   		<input type="text" id="Nama"style="width:200px">
-  			<br><br>
-  	<label for="Alamat"> Alamat &emsp;&emsp;&emsp;&ensp;&emsp;&emsp;: </label>
-  		<input type="text" id="Alamat" style="width:300px">
-  			<br><br>
-  	<label for="Telp"> Telp&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </label>
-  		<input type="text" id="Telp"style="width:150px">
-  			<br><br>
-  	<label for="Jenis Kelamin"> Jenis Kelamin&ensp;&ensp;&emsp;&emsp;: </label>
-  		<input type="radio" id="Laki-Laki">		
-  			<label for="Pria">Laki-Laki</label>
-  			<input type="radio" id="Perempuan">
-  			<label for="Perempuan">Perempuan</label>
-  			<br><br>
-  	<label for="Agama"> Agama &emsp;&emsp;&emsp;&ensp;&emsp;&emsp;: </label>
+              <br><br>
+    <p> Tempat Tanggal Lahir : </p>
+        <input type="text" id="tempat lahir">
+        <input type="date">
+  	<p> Alamat :</p>
+  		<textarea name="tulisan" rows="3" cols="30"></textarea>
+  			<br>
+  	<p>No. Telp :</p>
+  		<input type="text" id="No.Telp"style="width:150px">
+  			<br>
+  	<p>Jenis Kelamin : </p>
+  		<input type="radio" id="Male">		
+  			<label for="Male">Male</label>
+  			<input type="radio" id="Female">
+  			<label for="Female">Female</label>
+  			<br>
+  	<p>Agama : </p>
   		<select name="Agama">
   			<option>None</option>
-  			<option value="name">Islam</option>
-  			<option value="name">Kristen</option>
-  			<option value="name">Hindu</option>
-  			<option value="name">Budha</option>
+  			<option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+  			<option value="Hindu">Hindu</option>
+  			<option value="Budha">Budha</option>
   		</select>
-  			<br><br> 
-  	<label for="Prestasi yang diraih"> Prestasi yang pernah di raih &ensp;: </label>
-  		<textarea name="tulisan" rows="3" cols="30"></textarea>
-  			<br><br>
+              <br><br>
+        <input type="checkbox" id="wajib">
+        <label>Tekan centang jika tidak ingin diubah lagi</label>
+        <br><br>
   	<input align="center" type="submit" value="Simpan">
   	<input type="submit" value="Batal">
 		</div>
