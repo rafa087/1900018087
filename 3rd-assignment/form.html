@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Form</title>
+	<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<form>
+	<div align="left" style="border: 2px solid black"><br>
+  	<label for="Nama"> Nama &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </label>
+  		<input type="text" id="Nama"style="width:200px">
+  			<br><br>
+  	<label for="Alamat"> Alamat &emsp;&emsp;&emsp;&ensp;&emsp;&emsp;: </label>
+  		<input type="text" id="Alamat" style="width:300px">
+  			<br><br>
+  	<label for="Telp"> Telp&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </label>
+  		<input type="text" id="Telp"style="width:150px">
+  			<br><br>
+  	<label for="Jenis Kelamin"> Jenis Kelamin&ensp;&ensp;&emsp;&emsp;: </label>
+  		<input type="radio" id="Laki-Laki">		
+  			<label for="Pria">Laki-Laki</label>
+  			<input type="radio" id="Perempuan">
+  			<label for="Perempuan">Perempuan</label>
+  			<br><br>
+  	<label for="Agama"> Agama &emsp;&emsp;&emsp;&ensp;&emsp;&emsp;: </label>
+  		<select name="Agama">
+  			<option>None</option>
+  			<option value="name">Islam</option>
+  			<option value="name">Kristen</option>
+  			<option value="name">Hindu</option>
+  			<option value="name">Budha</option>
+  		</select>
+  			<br><br> 
+  	<label for="Prestasi yang diraih"> Prestasi yang pernah di raih &ensp;: </label>
+  		<textarea name="tulisan" rows="3" cols="30"></textarea>
+  			<br><br>
+  	<input align="center" type="submit" value="Simpan">
+  	<input type="submit" value="Batal">
+		</div>
+</form>
+</body>
+</html>
