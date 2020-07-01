@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>2nd Assignment</title>
+</head>
+<body>
+<form action="form.php">
+    <div style="border: 2px solid black">
+        <br> 
+        <h2>Formulir Pendaftaran Anggota</h2>
+    <p> Nama :</p>
+  		<input type="text" id="Nama"style="width:200px">
+              <br><br>
+    <p> Tempat Tanggal Lahir : </p>
+        <input type="text" id="tempat lahir">
+        <input type="date">
+  	<p> Alamat :</p>
+  		<textarea name="tulisan" rows="3" cols="30"></textarea>
+  			<br>
+  	<p>No. Telp :</p>
+  		<input type="text" id="No.Telp"style="width:150px">
+  			<br>
+  	<p>Jenis Kelamin : </p>
+  		<input type="radio" id="Male">		
+  			<label for="Male">Male</label>
+  			<input type="radio" id="Female">
+  			<label for="Female">Female</label>
+  			<br>
+  	<p>Agama : </p>
+  		<select name="Agama">
+  			<option>None</option>
+  			<option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+  			<option value="Hindu">Hindu</option>
+  			<option value="Budha">Budha</option>
+  		</select>
+              <br><br>
+        <input type="checkbox" id="wajib">
+        <label>Tekan centang jika tidak ingin diubah lagi</label>
+        <br><br>
+  	<input type="submit" value="Simpan">
+  	<input type="submit" value="Batal">
+		</div>
+</form>
+</body>
+</html>
