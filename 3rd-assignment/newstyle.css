@@ -1,0 +1,113 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1042px;
+    background: #F1F1F2;
+    }
+    
+    #hnyu {
+    position: absolute;
+    width: 208px;
+    height: 61px;
+    left: 100px;
+    top: 20px;
+
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+
+  li {
+    float: right;
+  }
+
+  .home {
+  position: absolute;
+  width: 233px;
+  height: 59px;
+  left: 695px;
+  top: 50px;
+
+  font-family: Roboto;font-style: normal;font-weight: normal;font-size: 35px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  }
+.about{
+position: absolute;
+width: 233px;
+height: 59px;
+left: 1072px;
+top: 50px;
+
+font-family: Roboto;font-style: normal;font-weight: normal;font-size: 35px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.course{
+position: absolute;
+width: 233px;
+height: 59px;
+left: 884px;
+top: 50px;
+font-family: Roboto;font-style: normal;font-weight: normal;font-size: 35px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.search{
+position: absolute;
+width: 180px;
+height: 29px;
+left: 1280px;
+top: 65px;
+
+font-family: Roboto; font-style: normal;font-weight: normal;font-size: 35px;line-height: 41px;
+display: flex;align-items: center;text-align: center;
+color: #000000;
+
+}
+  #frame1{
+  position: relative;
+  width: 1440px;
+  height: 120px;
+  background: #FFFFFF;
+  }
+
+  #frame2{
+    width: 1440px;
+    height: 839px;
+    background: rgba(25, 149, 173, 0.7);
+  }
+  #frame3{
+    width: 1440px;
+    height: 490px;
+    background: rgba(161, 214, 226, 0.8);
+  }
+  .kotak1{
+    position: absolute;
+    width: 1440px;
+    height: 540px;
+    left: 0px;
+    top: 221px;
+
+    background: rgba(196, 196, 196, 0.75);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }

@@ -2,47 +2,81 @@
 <html>
 
 <head>
-	<title>2nd Assignment</title>
+	<title>HNYU PY Course</title>
+	<link rel="stylesheet" href="newstyle.css" />
 </head>
 <body>
-<form action="form.php">
-    <div style="border: 2px solid black">
-        <br> 
-        <h2>Formulir Pendaftaran Anggota</h2>
-    <p> Nama :</p>
-  		<input type="text" id="Nama"style="width:200px">
+<div id="frame1">
+<h1 id="hnyu">HNYU PY</h1>
+<ul class="list">
+      <li><a href="#home" class="home">Home</a></li>
+      <li><a href="#about" class="about">About</a></li>
+      <li><a href="#course"class="course">Course</a></li>
+      <li><a href="#search" class="search">Search</a></li>
+    </ul>
+        </div>
+<div id="frame2">
+	<br><br>
+	<img src="hanyu3.png"  alt="text" style="background: rgba(196, 196, 196, 0.75);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10); width: 371px; height: 714px; top: 50px;">
+  	<li>
+		<img src="hanyu2.png"  alt="text" style="background: rgba(196, 196, 196, 0.75);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10); width: 371px; height: 714px;">
+	</li>
+  <div class="kotak1">
+	  
+	  <h1>HNYU PY Course</h1>
+	  <section>
+	  <p>Hnyu py is a language training place in Yogyakarta.
+	  Hnyu py is also committed to playing a role in efforts to improve language competence broadly	  
+		</p>
+		</section>
+		<section>
+		<h2>Description</h2>
+		<p>Mandarin is designed to train participants to understand grammar in Mandarin, introduce kanji, 
+		pinyin (Chinese writing in Latin letters), shēng diào (intonation) so that participants are 
+		able to communicate both verbally and in writing effectively. Also given a brief introduction 
+		to culture from China for example: history, traditional clothing, special food, literature, 
+		and so on.
+		</p>
+		</section>
+		<section>
+		<h3><center>===============================================</center></h3>
+		<h3><CENTER>if you are interested in registering for a course, check in below</CENTER></h3>
+		<h3><center>===============================================</center></h3>
+		</section>
+  </div>
+</div>
+  <div class="frame3">
+  <h2>Mandarin Course Form</h2><br>
+<form method="post" action="form.php">
+    <br>
+    Nama :<input type="text" name="nama"style="width:200px">
               <br><br>
-    <p> Tempat Tanggal Lahir : </p>
-        <input type="text" id="tempat lahir">
-        <input type="date">
-  	<p> Alamat :</p>
-  		<textarea name="tulisan" rows="3" cols="30"></textarea>
-  			<br>
-  	<p>No. Telp :</p>
-  		<input type="text" id="No.Telp"style="width:150px">
-  			<br>
-  	<p>Jenis Kelamin : </p>
-  		<input type="radio" id="Male">		
-  			<label for="Male">Male</label>
-  			<input type="radio" id="Female">
-  			<label for="Female">Female</label>
-  			<br>
-  	<p>Agama : </p>
-  		<select name="Agama">
-  			<option>None</option>
-  			<option value="Islam">Islam</option>
-            <option value="Kristen">Kristen</option>
-            <option value="Katolik">Katolik</option>
-  			<option value="Hindu">Hindu</option>
-  			<option value="Budha">Budha</option>
-  		</select>
+    Tempat Tanggal Lahir :<input type="text" name="ttl">
               <br><br>
-        <input type="checkbox" id="wajib">
-        <label>Tekan centang jika tidak ingin diubah lagi</label>
-        <br><br>
-  	<input type="submit" value="Simpan">
-  	<input type="submit" value="Batal">
-		</div>
-</form>
+    Alamat : <textarea name="alamat" rows="3" cols="30"></textarea>
+  			<br><br>
+    No. Telp : <input type="text" name="telp"style="width:150px">
+  			<br><br>
+    E-mail: <input type="text" name="email">
+          <br><br>
+    Jenis Kelamin : <input type="radio" name="Jkelamin" value="Male">Male
+                    <input type="radio" name="Jkelamin" value="Female">Female
+  			        <br><br>
+  	Level : <input type="radio" name="level" value="PreBeginner">Pre Beginner
+            <input type="radio" name="level" value="Beginner">Beginner
+            <input type="radio" name="level" value="PreIntermediate">Pre Intermediate
+            <input type="radio" name="level" value="Intermediate">Intermediate
+            <input type="radio" name="level" value="PreAdvance">Pre Advance
+            <input type="radio" name="level" value="Advance">Advance
+                  <br><br>
+  	<input type="submit" name="simpan" value="Submit">
+    <br><br>
+	</form>
+	</div>
+	<script>
+		alert("Welcome to HNYU PY Website");
+	</script>
 </body>
 </html>
