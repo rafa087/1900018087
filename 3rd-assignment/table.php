@@ -20,6 +20,5 @@
   echo "<tr><td>$x</td>"; 
   }
   echo "<tr>";
-
   fclose($f1);
 ?>

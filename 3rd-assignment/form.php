@@ -28,5 +28,6 @@
         fputs ($f1,"Level : $level\n");
         
         fclose($f1);
-       
+        
+        echo "<a href=table.php>display form</a><br>";
 ?>
